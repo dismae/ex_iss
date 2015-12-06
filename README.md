@@ -2,7 +2,6 @@
 
 **TODO:**
 * add documentation
-* geocoding to turn coordinates into locations, and locations into coordinates.
 
 
 ## Installation
