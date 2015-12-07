@@ -45,6 +45,7 @@ defmodule ExIss.Mixfile do
       files: ["lib", "mix.exs", "README*"],
       maintainers: ["Ethan Parrott"],
       links: %{"GitHub" => "https://github.com/cryptobird/ex_iss"}
+      licenses: ["DO WHAT THE F*CK YOU WANT TO PUBLIC LICENSE "]
     ]
   end
 end
