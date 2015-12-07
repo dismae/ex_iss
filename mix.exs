@@ -42,8 +42,8 @@ defmodule ExIss.Mixfile do
 
   defp package do
     [
-      files: ["lib", "mix.exs", "README*"]
-      maintainers: ["Ethan Parrott"]
+      files: ["lib", "mix.exs", "README*"],
+      maintainers: ["Ethan Parrott"],
       links: %{"GitHub" => "https://github.com/cryptobird/ex_iss"}
     ]
   end
