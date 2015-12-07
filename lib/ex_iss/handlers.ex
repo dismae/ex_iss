@@ -1,8 +1,9 @@
 defmodule ExISS.Handlers do
   @atoms [:latitude, :longitude, :name, :number, :date, :time, :iss_location,
-          :people, :response, :duration, :risetime, :craft]
+          :people, :response, :duration, :risetime, :craft, :message, :request,
+          :response]
   @moduledoc """
-  This module defines handlers and helpers for the functions in ExISS. None of these functions are meant for use outside of this library. Use at your own risk. 
+  This module defines handlers and helpers for the functions in ExISS. None of these functions are meant for use outside of this module. Use at your own risk.
   """
   def fetch(thing) do
     HTTPoison.get(thing)
