@@ -1,10 +1,12 @@
-defmodule ExIss.Mixfile do
+defmodule ExISS.Mixfile do
   use Mix.Project
 
   def project do
     [app: :ex_iss,
      version: "1.0.0",
      elixir: "~> 1.1",
+     description: description,
+     package: package,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
