@@ -2,6 +2,7 @@
 
 **TODO:**
 * add documentation
+* Fix geocoding so that coords over an ocean at least display the name of an ocean
 
 
 ## Installation
